@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CameraRecorderClass" >
+
+    <TextView
+        android:id="@+id/headertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Start Instant Recording By Clickng Below"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/DownArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/downarrow" />
+
+    <Button
+        android:id="@+id/StartService"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/hello_world" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/StopService"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Stop Recording"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/videopath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+</LinearLayout>

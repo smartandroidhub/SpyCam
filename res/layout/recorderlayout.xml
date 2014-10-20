@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/headertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Start Timer Recording By Clickng Below"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/DownArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/downarrow" />
+
+    <Button
+        android:id="@+id/startrecordingtime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Set Recording Time" />
+
+    <Button
+        android:id="@+id/stoprecordingtime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Stop Recording Time"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/recordingtimeprompt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="adas"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/videopath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Path"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+</LinearLayout>

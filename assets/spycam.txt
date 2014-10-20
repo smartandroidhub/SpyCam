@@ -1,0 +1,13 @@
+*SpyCam is all about recording videos without any preview.
+
+*Since there is no preview available app works in hidden mode.
+
+*SpyCam let you record videos in background.
+
+*You can record a video even if your phone screen is locked.
+
+             ********Works In Two Mode*********** 
+
+
+*Instant Recording :- Starts Recording immediately And Pushes the app in background.(Can Start Instant Mode by clicking on SpyCam in Menu)
+*Timer Recording :- Starts Recording on set time.(Can Start By clicking on timer Recorder in menu)
